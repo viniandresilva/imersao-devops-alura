@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: imersao-devops-alura
+    restart: unless-stopped
+    ports:
+      - "9000:9000"
+    volumes:
+      # Monta o código da aplicação para desenvolvimento com hot-reload.
+      # Para produção, você pode remover esta linha.
+      - .:/app

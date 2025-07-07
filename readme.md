@@ -33,13 +33,13 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
      ```
 
 4. **Instale as dependências:**
-   ```sh
+   ```sh 
    pip install -r requirements.txt
    ```
 
 5. **Execute a aplicação:**
    ```sh
-   uvicorn app:app --reload
+   uvicorn app:app --reload --port 9000
    ```
 
 6. **Acesse a documentação interativa:**
